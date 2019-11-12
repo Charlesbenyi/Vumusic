@@ -21,14 +21,17 @@
         </el-table-column>
     </el-table>
     <TabChange></TabChange>
+    <my-echart></my-echart>
     </div>
 </template>
 <script>
 import TabChange from './learnResourse/tabChange'
+import MyEchart from './learnResourse/eachartsLearn'
 export default {
     name: 'ucenter',
     components: {
-      TabChange  
+      TabChange,
+      MyEchart
     },
     data(){
         return{
